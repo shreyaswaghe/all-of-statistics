@@ -16,7 +16,7 @@ then
 elif [ $NUM == 2 ]
 then
     git add solns/
-    git commit -m "Solutions".now
+    git commit -m "Solutions".$now
 fi
 
 git push
